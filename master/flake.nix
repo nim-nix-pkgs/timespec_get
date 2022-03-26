@@ -11,6 +11,7 @@
   inputs.src-timespec_get-master.ref   = "refs/heads/master";
   inputs.src-timespec_get-master.owner = "Matceporial";
   inputs.src-timespec_get-master.repo  = "nim-timespec_get";
+  inputs.src-timespec_get-master.dir   = "";
   inputs.src-timespec_get-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
